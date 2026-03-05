@@ -1,0 +1,75 @@
+body{
+
+background:#0d1117;
+color:white;
+font-family:system-ui;
+margin:0;
+
+}
+
+nav{
+
+display:flex;
+justify-content:space-between;
+padding:20px 120px;
+border-bottom:1px solid #30363d;
+
+}
+
+nav a{
+
+margin-left:30px;
+text-decoration:none;
+color:#c9d1d9;
+
+}
+
+.hero{
+
+height:90vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+
+}
+
+.hero h1{
+
+font-size:70px;
+
+}
+
+.btn{
+
+padding:14px 30px;
+background:#238636;
+color:white;
+border-radius:6px;
+text-decoration:none;
+margin-top:30px;
+
+}
+
+.section{
+
+padding:120px 200px;
+text-align:center;
+
+}
+
+.projects{
+
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:30px;
+
+}
+
+.card{
+
+background:#161b22;
+padding:30px;
+border-radius:10px;
+
+}
